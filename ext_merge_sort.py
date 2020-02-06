@@ -32,7 +32,6 @@ def k_way_merge(*lists):
 num_of_files = list()
 dir_path = os.getcwd()
 input_path = os.path.join(dir_path,'input')
-print(input_path)
 for filename in os.listdir(input_path):
     input_file = input_path + '/' + filename
     with open(input_file) as file:
