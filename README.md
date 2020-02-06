@@ -26,5 +26,19 @@ Commit your changes into your public Github repository (cmpe273-lab1) and your f
 4. all sorted_.txt files
 4. time.txt and async_time.txt
 
+# Output
 
-
+excusion of ext_merge_sort.py
+```sh
+time python3 ext_merge_sort.py
+real    0m1.163s
+user    0m0.945s
+sys     0m0.177s
+```
+excusion of async_ext_merge_sort.py
+```sh
+time python3 async_ext_merge_sort.py
+real    0m1.091s
+user    0m0.899s
+sys     0m0.163s
+```
